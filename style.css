@@ -21,7 +21,7 @@
     justify-self: left;
     max-width: 50px;
   }
-
+  /* main-section */
   .centre-wrapper-container {
     display: grid;
     grid-template-areas: ". centre .";
@@ -32,7 +32,6 @@
       grid-area: centre;
       margin-top: 50px;
       margin-bottom: 80px;
-    
       color: white;
   }
 
@@ -47,4 +46,8 @@
     display: grid;
     gap: 4px;
     padding: 16px;
+  }
+
+  .gap-md {
+      gap: 16px;
   }
