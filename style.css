@@ -35,19 +35,29 @@
       color: white;
   }
 
-.card {
+  .card { 
     border: 2px solid black;
     text-align: center;
     padding: 16px;
+    width: 200px;
+    height: 80px;
     /* height: 200px; */
-}
-
+  }
+/* Responsive Grid underneath */
 .card-list {
     display: grid;
-    gap: 4px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 8px;
     padding: 16px;
   }
 
   .gap-md {
       gap: 16px;
   }
+
+  img {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  
