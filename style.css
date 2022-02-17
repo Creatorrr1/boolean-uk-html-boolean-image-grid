@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+  }
+  
+  
+  /* Header */
+  header {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  
+    padding: 10px 10px;
+  
+    background-color: rgb(9, 25, 63);
+    color: white;
+  }
+
+  .logo-centre-and-size {
+    justify-self: left;
+    max-width: 50px;
+  }
+
