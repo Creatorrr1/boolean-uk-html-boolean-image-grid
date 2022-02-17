@@ -22,3 +22,29 @@
     max-width: 50px;
   }
 
+  .centre-wrapper-container {
+    display: grid;
+    grid-template-areas: ". centre .";
+    grid-template-columns: 1fr 600px 1fr;
+  }
+
+  .centre-wrapper .centre-wrapper-container{
+      grid-area: centre;
+      margin-top: 50px;
+      margin-bottom: 80px;
+    
+      color: white;
+  }
+
+.card {
+    border: 2px solid black;
+    text-align: center;
+    padding: 16px;
+    /* height: 200px; */
+}
+
+.card-list {
+    display: grid;
+    gap: 4px;
+    padding: 16px;
+  }
